@@ -3,5 +3,8 @@ project(study)
 
 include_directories(
     include
-    
+    ${OpenCV_INCLUDE_DIRS}
 )
+
+find_package(OpenCV REQUIRED)
+
